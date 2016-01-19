@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialize a repository, Git makes the .git directory in that 
+folder and sets it up to track the changes however, it doesn't track 
+changes just yet. So, at initialized state repository is set up. We have 
+to do the commits to the repository later on. Git doesn't do any commits 
+during the initialization because firstly, we might not want to track 
+all the files and secondly we won't have an opportunity to add our 
+comments to the commit. We need to initialize the repository to create 
+it and to let git know that we would like git to set it up for tracking 
+changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+We can add files from working directory to staging area and change the files before committing them into the repository. We can have many untracked files in the working directory, in staging area we will only have tracked files and in the repository only committed files will be present. It gives us an opportunity to make sure that the commit we are about to make does indeed contains a logical commit and also it lets us commit only relevant file to the repository.
