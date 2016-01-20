@@ -13,3 +13,13 @@ changes.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 We can add files from working directory to staging area and change the files before committing them into the repository. We can have many untracked files in the working directory, in staging area we will only have tracked files and in the repository only committed files will be present. It gives us an opportunity to make sure that the commit we are about to make does indeed contains a logical commit and also it lets us commit only relevant file to the repository.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+We can use 'git diff' to compare the changes between staging area and 
+working directory to see all changes we have made. Then we can add the 
+files related to a logical change into the staging area. Then we can git 
+diff --staged to compare changes with the last commit. This will ensure 
+that we are only going to commit one logical change. Once we are sure we 
+can git commit to commit that logical change.
