@@ -23,3 +23,14 @@ files related to a logical change into the staging area. Then we can git
 diff --staged to compare changes with the last commit. This will ensure 
 that we are only going to commit one logical change. Once we are sure we 
 can git commit to commit that logical change.
+
+What are some situations when branches would be helpful in keeping your history oganizied? How would branches help?
+
+Branches are really helpful when we want to experiment with the main 
+program. Perhaps, we want to test a new feature, or want to add a 
+translation or we want make a simpler versin of program. In such 
+scenarios, we want to keep and maintain a working version for the 
+current users while the feature(s) is being worked upon. The main 
+program and branched instance can go on in a different direction. If any 
+bug is found it can be fixed in master branch. Once the feature is 
+complete the branches can be merged again.
