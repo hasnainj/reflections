@@ -12,7 +12,14 @@ changes.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-We can add files from working directory to staging area and change the files before committing them into the repository. We can have many untracked files in the working directory, in staging area we will only have tracked files and in the repository only committed files will be present. It gives us an opportunity to make sure that the commit we are about to make does indeed contains a logical commit and also it lets us commit only relevant file to the repository.
+We can add files from working directory to staging area and change the 
+files before committing them into the repository. We can have many 
+untracked files in the working directory, in staging area we will only 
+have tracked files and in the repository only committed files will be 
+present. It gives us an opportunity to make sure that the commit we are 
+about to make does indeed contains a logical commit and also it lets us 
+commit only relevant file to the repository.
+
 
 How can you use the staging area to make sure you have one commit per 
 logical change?
@@ -34,3 +41,7 @@ current users while the feature(s) is being worked upon. The main
 program and branched instance can go on in a different direction. If any 
 bug is found it can be fixed in master branch. Once the feature is 
 complete the branches can be merged again.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams can help you tracing back to the start of the node where a branch was spawned at. It can also help you visualise what commits from master would are / aren't included in a particular branch. It can also help you to find out if a particular node is unreachable.
