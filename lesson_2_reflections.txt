@@ -45,3 +45,7 @@ complete the branches can be merged again.
 How do the diagrams help you visualize the branch structure?
 
 Diagrams can help you tracing back to the start of the node where a branch was spawned at. It can also help you visualise what commits from master would are / aren't included in a particular branch. It can also help you to find out if a particular node is unreachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches merge the changes from one branch to the other one so that the two branches become one from there onwards. The branches are represented like this to keep track of the changes and it also helps us to get the id of the checkouts.
