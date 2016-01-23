@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Remote repositories are used for collaboration between various contributors.
+It also serves as an extra level of maturity where you release your work to public for consumption. You won't release a half baked 
+immature version of a project on a public repository.
+Keeping all our work local will also have a danger of losing it all if something happens to local machine.
