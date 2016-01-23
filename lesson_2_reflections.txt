@@ -60,3 +60,10 @@ involves the person when there is a conflict so that correct decision is
 made. If the merges are always done manually then the task of merging 
 becomes a tedious task to compare all the changes manually. It will take 
 longer though the conflicts will be readlity handled by the person.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+It is more safe to pull changes manually rather than doing it 
+automatically. Staying up-to-date will sometimes create conflicts which 
+might need collaboration before the changes are incorporated in local 
+repository. That might lead to lost time in what you are doing. 
