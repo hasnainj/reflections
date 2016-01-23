@@ -48,4 +48,15 @@ Diagrams can help you tracing back to the start of the node where a branch was s
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-Merging two branches merge the changes from one branch to the other one so that the two branches become one from there onwards. The branches are represented like this to keep track of the changes and it also helps us to get the id of the checkouts.
+Merging two branches merge the changes from one branch to the other one so that the two branches become one from there onwards. The branches are
+represented like this to keep track of the changes and it also helps us to get the id of the checkouts.
+
+What are the pros and cons of Git's automatic merging vs. always doing 
+merges manually?
+
+Git's automatic merging, merges the commits as long as there are no
+conflicts this simplify the task of merging to a some extent and it only 
+involves the person when there is a conflict so that correct decision is 
+made. If the merges are always done manually then the task of merging 
+becomes a tedious task to compare all the changes manually. It will take 
+longer though the conflicts will be readlity handled by the person.
