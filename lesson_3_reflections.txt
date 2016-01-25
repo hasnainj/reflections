@@ -1,6 +1,20 @@
-When would you want to use a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping all 
+your work local?
 
-Remote repositories are used for collaboration between various contributors.
-It also serves as an extra level of maturity where you release your work to public for consumption. You won't release a half baked 
+Remote repositories are used for collaboration between various 
+contributors.
+It also serves as an extra level of maturity where you release your work 
+to public for consumption. You won't release a half baked 
 immature version of a project on a public repository.
-Keeping all our work local will also have a danger of losing it all if something happens to local machine.
+Keeping all our work local will also have a danger of losing it all if 
+something happens to local machine.
+
+Describe th edifferences between forks, clones, and branches. When would you use one instead of another?
+
+Branch is a chain of changes occuring in a repository recorded by Git and it can be divided into further branches. Each branch can track the changes all the way to the beginning of the repository. Branches are usually used when the author wants to test a feature or a change to the master without affecting the master branch.
+
+Clone is a duplicating of a branch of a repository. One can clone any branch of an available Git repository to his own system. Clones can be local to local or from remote to local. 
+
+Fork is specifically related to GitHub repositories. It relates to the facility of cloning an existing GitHub repository to your own account on the GitHub. You wouild use fork when you want to clone an existing GitHub repository to make your own changes but at the same time you want to give recognition to original author of the repository. 
+
+So, in a sentence, Fork is a clone of a branch of a GitHub repository from one GitHub account to another GitHub account.
