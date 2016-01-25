@@ -18,3 +18,7 @@ Clone is a duplicating of a branch of a repository. One can clone any branch of 
 Fork is specifically related to GitHub repositories. It relates to the facility of cloning an existing GitHub repository to your own account on the GitHub. You wouild use fork when you want to clone an existing GitHub repository to make your own changes but at the same time you want to give recognition to original author of the repository. 
 
 So, in a sentence, Fork is a clone of a branch of a GitHub repository from one GitHub account to another GitHub account.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Testing local commit of this reflection with remote with git pull command.
