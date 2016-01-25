@@ -46,3 +46,11 @@ a document then google docs might be a good option however, if the
 collaboration is on code then there are tools like bit bucket etc. After 
 learning what Git and GitHub can do I am quite sure that it is quite easy
 to collaborate on anything using Git and GitHub.
+
+When would you want to make changes in a seperate branch rather than directly
+in master? What benefits does each approach have?
+
+Making changes in a seperate branch makes more sense when you are collaborating
+with various people. Making the changes directly into master is simpler option
+but it is a nightmare for collaborating. Seperate branch option really 
+streamlines the collaboration.
